@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="eaps">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="eaps.war">
+      <element id="artifact" artifact-name="eaps exploded" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
